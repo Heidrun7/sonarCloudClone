@@ -125,7 +125,9 @@ VirtualPin VirtualPins::operator[](std::size_t pin_id) noexcept {
             return m_bdat->uart_channels[m_index].max_buffered_tx;
         }
     }
-    return 0;
+    else {
+        return 0;
+    }
     // clang-format on
 }
 
