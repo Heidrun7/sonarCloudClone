@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/heidrunheidarsdottir/group-5-libSMCE/build/_deps/mosquitto-subbuild/CMakeFiles/mosquitto-populate"
+		},
+		{
+			"file" : "/Users/heidrunheidarsdottir/group-5-libSMCE/build/_deps/mosquitto-subbuild/CMakeFiles/mosquitto-populate.rule"
+		},
+		{
+			"file" : "/Users/heidrunheidarsdottir/group-5-libSMCE/build/_deps/mosquitto-subbuild/CMakeFiles/mosquitto-populate-complete.rule"
+		},
+		{
+			"file" : "/Users/heidrunheidarsdottir/group-5-libSMCE/build/_deps/mosquitto-subbuild/mosquitto-populate-prefix/src/mosquitto-populate-stamp/mosquitto-populate-build.rule"
+		},
+		{
+			"file" : "/Users/heidrunheidarsdottir/group-5-libSMCE/build/_deps/mosquitto-subbuild/mosquitto-populate-prefix/src/mosquitto-populate-stamp/mosquitto-populate-configure.rule"
+		},
+		{
+			"file" : "/Users/heidrunheidarsdottir/group-5-libSMCE/build/_deps/mosquitto-subbuild/mosquitto-populate-prefix/src/mosquitto-populate-stamp/mosquitto-populate-download.rule"
+		},
+		{
+			"file" : "/Users/heidrunheidarsdottir/group-5-libSMCE/build/_deps/mosquitto-subbuild/mosquitto-populate-prefix/src/mosquitto-populate-stamp/mosquitto-populate-install.rule"
+		},
+		{
+			"file" : "/Users/heidrunheidarsdottir/group-5-libSMCE/build/_deps/mosquitto-subbuild/mosquitto-populate-prefix/src/mosquitto-populate-stamp/mosquitto-populate-mkdir.rule"
+		},
+		{
+			"file" : "/Users/heidrunheidarsdottir/group-5-libSMCE/build/_deps/mosquitto-subbuild/mosquitto-populate-prefix/src/mosquitto-populate-stamp/mosquitto-populate-patch.rule"
+		},
+		{
+			"file" : "/Users/heidrunheidarsdottir/group-5-libSMCE/build/_deps/mosquitto-subbuild/mosquitto-populate-prefix/src/mosquitto-populate-stamp/mosquitto-populate-test.rule"
+		},
+		{
+			"file" : "/Users/heidrunheidarsdottir/group-5-libSMCE/build/_deps/mosquitto-subbuild/mosquitto-populate-prefix/src/mosquitto-populate-stamp/mosquitto-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"mosquitto-populate"
+		],
+		"name" : "mosquitto-populate"
+	}
+}
