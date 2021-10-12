@@ -1,3 +1,0 @@
-repository='https://github.com/eclipse/mosquitto'
-module=''
-tag='origin'
