@@ -117,9 +117,15 @@ VirtualPin VirtualPins::operator[](std::size_t pin_id) noexcept {
 
 [[nodiscard]] std::size_t VirtualUartBuffer::max_size() noexcept {
     // clang-format off
-   return exists() ? (m_dir == Direction::rx
-                          ? m_bdat->uart_channels[m_index].max_buffered_rx
-                          : m_bdat->uart_channels[m_index].max_buffered_tx) : 0;
+    if(exists()) {
+        if(m_dir == Direction::rx) {
+            return m_bdat->uart_channels[m_index].max_buffered_rx;
+        }
+        else {
+            return m_bdat->uart_channels[m_index].max_buffered_tx;
+        }
+    }
+    return 0;
     // clang-format on
 }
 
